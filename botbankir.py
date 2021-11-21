@@ -4,7 +4,7 @@ import sqlite3
 import time
 import math
 
-bot = telebot.TeleBot("2115057659:AAFa1zmH5Nhh2lUjJ7EQNC1J1KPU0dWzBwo")
+bot = telebot.TeleBot("")
 
 conn = sqlite3.connect('/home/arkady/Рабочий стол/taxdb', check_same_thread=False,timeout=7)
 cursor = conn.cursor()
